@@ -8,6 +8,10 @@
 4. If the incident is still unresolved, escalate to the engineering manager on duty.
 5. For customer-impacting outages, page the platform lead and open a status page incident.
 
+## After-hours paging
+
+If an alert fires outside business hours and the primary on-call does not acknowledge it within 10 minutes, page the secondary on-call engineer. The secondary on-call is expected to acknowledge pages within 15 minutes and to open an incident channel before starting triage.
+
 ## Communications
 
 - Keep all status updates in the incident channel.
